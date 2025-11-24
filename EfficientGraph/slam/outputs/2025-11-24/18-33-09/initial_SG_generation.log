@@ -1,0 +1,3 @@
+[2025-11-24 18:33:10,323][INFO][m:optional_rerun_wrapper][fn:set_use_rerun][ln:24] - rerun is installed. Using rerun for logging.
+[2025-11-24 18:33:10,409][INFO][m:optional_wandb_wrapper][fn:set_use_wandb][ln:111] - wandb functionality is disabled in the config. Not using wandb for logging.
+[2025-11-24 18:33:10,412][DEBUG][m:optional_wandb_wrapper][fn:method][ln:139] - Skipping optional wandb call to 'init' because wandb usage is disabled.

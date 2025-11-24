@@ -1,0 +1,98 @@
+2025-11-24 10:53:20,699 - INFO - Loading faiss with AVX2 support.
+2025-11-24 10:53:20,851 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 10:53:21,103 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 10:53:21,103 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 10:55:16,513 - INFO - Loading faiss with AVX2 support.
+2025-11-24 10:55:16,654 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 10:55:16,901 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 10:55:16,901 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:22:55,995 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:22:56,127 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:22:56,378 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:22:56,378 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:27:25,047 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:27:25,178 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:28:31,784 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:28:31,914 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:29:23,353 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:29:23,484 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:30:10,677 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:30:10,811 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:30:11,050 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:30:11,050 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:31:50,307 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:31:50,457 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:31:50,710 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:31:50,711 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:34:20,992 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:34:21,127 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:36:35,922 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:36:36,058 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:36:36,307 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:36:36,307 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:37:45,956 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:37:46,114 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:37:46,362 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:37:46,362 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:43:46,628 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:43:46,757 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:44:47,270 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:44:47,406 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:45:08,276 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:45:08,403 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:45:42,943 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:45:43,072 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:45:43,319 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:45:43,320 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:47:34,537 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:47:34,675 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:47:34,925 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:47:34,925 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:49:28,015 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:49:28,148 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:49:28,389 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:49:28,389 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:51:39,736 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:51:39,881 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:51:40,128 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:51:40,128 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:53:34,163 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:53:34,295 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:53:34,536 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:53:34,536 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 11:56:47,294 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:56:47,431 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:59:29,574 - INFO - Loading faiss with AVX2 support.
+2025-11-24 11:59:29,704 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 11:59:29,949 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 11:59:29,949 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 12:01:22,428 - INFO - Loading faiss with AVX2 support.
+2025-11-24 12:01:22,559 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 12:01:22,809 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 12:01:22,810 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 12:06:28,048 - INFO - Loading faiss with AVX2 support.
+2025-11-24 12:06:28,179 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 12:07:25,785 - INFO - Loading faiss with AVX2 support.
+2025-11-24 12:07:25,915 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 12:07:26,159 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 12:07:26,159 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 17:30:45,707 - INFO - Loading faiss with AVX2 support.
+2025-11-24 17:30:45,862 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 17:30:46,136 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 17:30:46,136 - DEBUG - Setting JobRuntime:name=test_sgg_init
+2025-11-24 18:32:18,846 - INFO - Loading faiss with AVX2 support.
+2025-11-24 18:32:18,990 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 18:32:19,237 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 18:32:19,237 - DEBUG - Setting JobRuntime:name=initial_SG_generation
+2025-11-24 18:32:32,968 - INFO - Loading faiss with AVX2 support.
+2025-11-24 18:32:33,100 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 18:32:33,339 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 18:32:33,340 - DEBUG - Setting JobRuntime:name=initial_SG_generation
+2025-11-24 18:33:09,512 - INFO - Loading faiss with AVX2 support.
+2025-11-24 18:33:09,642 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 18:33:09,885 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 18:33:09,885 - DEBUG - Setting JobRuntime:name=initial_SG_generation
+2025-11-24 18:34:54,816 - INFO - Loading faiss with AVX2 support.
+2025-11-24 18:34:54,948 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-24 18:34:55,198 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2025-11-24 18:34:55,198 - DEBUG - Setting JobRuntime:name=initial_SG_generation
