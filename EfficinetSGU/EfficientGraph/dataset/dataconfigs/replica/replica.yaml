@@ -1,0 +1,63 @@
+dataset_name: 'replica'
+meshing:
+  eval_rec: True
+tracking:
+  vis_freq: 50
+  vis_inside_freq: 25
+  ignore_edge_W: 100
+  ignore_edge_H: 100
+  seperate_LR: False
+  const_speed_assumption: True
+  lr: 0.001
+  pixels: 200
+  iters: 10
+mapping:
+  every_frame: 5
+  vis_freq: 50
+  vis_inside_freq: 30
+  mesh_freq: 50
+  ckpt_freq: 500
+  keyframe_every: 50
+  mapping_window_size: 5
+  pixels: 1000
+  iters_first: 1500
+  iters: 60
+# camera_params:
+#   image_height: 224 #480 #680
+#   image_width: 172 #640 #1200
+#   fx: 279.5 #2.400000000000000284e+02 # 600.0
+#   fy: 204.75 #2.400000000000000284e+02 #600.0
+#   cx: 88.4207 #3.200000000000000000e+02 #599.5
+#   cy: 111.558 #2.400000000000000000e+0
+#   png_depth_scale: 1000 #6553.5 #for depth image in png format
+#   crop_edge: 0
+
+camera_params:
+  image_height: 680
+  image_width: 1200
+  fx: 600.0
+  fy: 600.0
+  cx: 599.0
+  cy: 339.0
+  png_depth_scale: 6553.5 #for depth image in png format
+  crop_edge: 0
+
+# camera_params:
+#   image_height: 480
+#   image_width: 640
+#   fx: 240.0
+#   fy: 240.0
+#   cx: 320.0
+#   cy: 240.0
+#   png_depth_scale: 1000.0 #for depth image in png format
+#   crop_edge: 0
+
+# camera_params:
+#   image_height: 172
+#   image_width: 224
+#   fx: 204.75
+#   fy: 279.5
+#   cx: 111.558
+#   cy: 85.5793
+#   png_depth_scale: 1000.0 #for depth image in png format
+#   crop_edge: 0

@@ -1,0 +1,96 @@
+defaults:
+  - base_paths
+
+# dataset info
+dataset_root: null
+dataset_config: null
+scene_id: null
+start: 0
+end: -1
+stride: 50
+image_height: null # if null, it will be determined by dataconfig
+image_width: null # if null, it will be determined by dataconfig
+
+make_edges: !!bool False
+
+periodically_save_pcd: !!bool False
+periodically_save_pcd_interval: 10
+
+# Input detections
+detections_exp_suffix: exp_base_detections_suffix
+# gsa_variant: ram
+# detection_folder_name: gsa_detections_${gsa_variant}
+# det_vis_folder_name: gsa_vis_${gsa_variant}
+# color_file_name: gsa_classes_${gsa_variant}
+
+
+# This json file controls an early exit feature for the mapping scripts. Specifically, it is periodically checked at every iteration of the loops within 'realtime_mapping.py' and 'streamlined_mapping.py'. When the 'exit_early' entry is set to true, these scripts will bypass their normal iterative processing loop and proceed directly to their final frame processing and cleanup phase. This allows for a quick termination of the mapping process, which can be useful in scenarios where immediate results are preferred or when it's necessary to halt processing due to external constraints. To trigger an early exit, manually edit this file by changing the value of 'exit_early' from false to true. The change will take effect at the next loop iteration.
+exit_early_file: ${repo_root}/EfficientGraph/hydra_configs/early_exit.json
+
+device: cuda
+
+use_iou: !!bool True
+spatial_sim_type: overlap # "iou", "giou", "overlap"
+phys_bias: 0.0
+match_method: "sim_sum" # "sep_thresh", "sim_sum"
+# Only when match_method=="sep_thresh"
+semantic_threshold: 0.5
+physical_threshold: 0.5
+# Only when match_method=="sim_sum"
+sim_threshold: 1.2
+
+# For contain_number
+use_contain_number: !!bool False
+contain_area_thresh: 0.95
+contain_mismatch_penalty: 0.5
+
+# Selection criteria on the 2D masks
+mask_area_threshold: 25 # mask with pixel area less than this will be skipped
+mask_conf_threshold: 0.25 # mask with lower confidence score will be skipped
+max_bbox_area_ratio: 0.5 # boxes with larger areas than this will be skipped
+
+min_points_threshold: 16 # projected and sampled pcd with less points will be skipped
+
+# point cloud processing
+obj_pcd_max_points: 5000 # Determines the maximum point count for object point clouds; exceeding this triggers downsampling to approx max points. Set to -1 to disable.
+downsample_voxel_size: 0.025
+dbscan_remove_noise: !!bool True
+dbscan_eps: 0.1
+dbscan_min_points: 10
+
+# Selection criteria of the fused object point cloud
+obj_min_points: 0
+obj_min_detections: 3
+
+# For merge_overlap_objects() function
+merge_overlap_thresh: 0.7      # -1 means do not perform the merge_overlap_objects()
+merge_visual_sim_thresh: 0.7   # Merge only if the visual similarity is larger
+merge_text_sim_thresh: 0.7     # Merge only if the text cosine sim is larger
+
+# Periodically perform post-process operations every k frame
+# -1 means not perform them during the run. They are performed at the end anyway. 
+
+denoise_interval: 20           # Run DBSCAN every k frame. This operation is heavy
+filter_interval: -1            # Filter objects that have too few associations or are too small
+merge_interval: -1             # Merge objects based on geometric and semantic similarity
+run_denoise_final_frame: !!bool True
+run_filter_final_frame: !!bool True
+run_merge_final_frame: !!bool True
+
+# Output point cloud
+save_pcd: !!bool True
+save_json: !!bool True
+save_suffix: exp_streamlined_mapping_base_suffix
+
+# Visualization
+vis_render: !!bool True           # If True, the objects will be rendered to a video. 
+debug_render: !!bool False     # If True, the vis.run() will be called and used for debugging
+class_agnostic: !!bool False   # If set, the color will be set by instance, rather than most common class
+
+save_objects_all_frames: !!bool False   # If True, the objects at all timesteps will be saved for future animation
+
+
+use_rerun: !!bool False
+save_rerun: !!bool False
+
+latest_pcd_filepath: ${repo_root}/latest_pcd_save
